@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a0c476b-acc7-4f5d-b89b-67cc9712022b" name="Default Changelist" comment="" />
+    <list default="true" id="9a0c476b-acc7-4f5d-b89b-67cc9712022b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/docs_src/assets/scss/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/docs_src/assets/scss/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/docs_src/assets/scss/demos.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/docs_src/assets/scss/demos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/docs_src/assets/scss/docs.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/docs_src/assets/scss/docs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/docs_src/assets/scss/docs.theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/docs_src/assets/scss/docs.theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/docs_src/assets/scss/highlight.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/docs_src/assets/scss/highlight.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/docs_src/assets/scss/highlight.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/docs_src/assets/scss/highlight.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/src/scss/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/src/scss/owl.carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/src/scss/owl.carousel.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/src/scss/owl.carousel.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/src/scss/owl.theme.default.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/src/scss/owl.theme.default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/src/scss/owl.theme.default.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/src/scss/owl.theme.default.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/src/scss/owl.theme.green.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/src/scss/owl.theme.green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/src/scss/owl.theme.green.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plug/OwlCarousel2-2.3.4/src/scss/owl.theme.green.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,11 +33,13 @@
     <session id="1520734793">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -41,7 +61,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="14" />
-          <entry key="html" value="583" />
+          <entry key="html" value="615" />
           <entry key="js" value="197" />
           <entry key="scss" value="1004" />
         </counts>
@@ -49,7 +69,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="14" />
-          <entry key="HTML" value="583" />
+          <entry key="HTML" value="615" />
           <entry key="JavaScript" value="197" />
           <entry key="SCSS" value="1004" />
         </counts>
@@ -64,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+            <state relative-caret-position="157">
+              <caret line="243" column="75" selection-start-line="243" selection-start-column="75" selection-end-line="243" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -82,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="90" column="23" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
+            <state relative-caret-position="-1036">
+              <caret line="181" column="23" selection-start-line="181" selection-start-column="23" selection-end-line="181" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -98,13 +118,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/assets/scss/main.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/js/script.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -120,16 +143,18 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="-415" />
+    <option name="y" value="32" />
+    <option name="width" value="1936" />
+    <option name="height" value="1057" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,7 +189,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,12 +223,14 @@
       <updated>1563822258469</updated>
       <workItem from="1563822261143" duration="709000" />
       <workItem from="1563823004253" duration="18517000" />
-      <workItem from="1563883407928" duration="932000" />
+      <workItem from="1563883407928" duration="1762000" />
+      <workItem from="1563910035719" duration="1977000" />
+      <workItem from="1563964134806" duration="124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20158000" />
+    <option name="totallyTimeSpent" value="23089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -243,13 +269,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="90" column="23" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -257,10 +276,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1036">
+          <caret line="181" column="23" selection-start-line="181" selection-start-column="23" selection-end-line="181" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+        <state relative-caret-position="157">
+          <caret line="243" column="75" selection-start-line="243" selection-start-column="75" selection-end-line="243" selection-end-column="75" />
         </state>
       </provider>
     </entry>
