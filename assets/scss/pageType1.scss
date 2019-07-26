@@ -1,0 +1,128 @@
+a{
+  color: $gray;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+a:hover{
+  text-decoration: none;
+  color: $gray;
+}
+#pageMain{
+    padding: 15px 0;
+  .page-map{
+    display: inline-block;
+    margin: 15px 0;
+
+    .page-map-items{
+      float: left;
+      span{
+        margin: 0 10px;
+      }
+    }
+    .page-map-title{
+      float: left;
+      margin-right: 0 20px;
+    }
+
+
+  }
+  .main-modal-inner{
+    padding: 0;
+  }
+  .page-sidebar{
+    ul{
+      list-style: none;
+      li{
+        border-bottom: 1px solid $border-color;
+
+        .sidebar-link{
+          width: 100%;
+          padding: 10px 15px;
+          transition: all 0.3s linear ;
+          i{
+            margin-right: 10px;
+          }
+        }
+        .sidebar-link:hover{
+          background-color: $air-color-light;
+        }
+
+      }
+    }
+    li:last-child{
+      border-bottom: none;
+    }
+  }
+}
+.page1 .page-content .main-modal .main-modal-inner{
+  padding: 50px 25px !important;
+  font-size: 1.2em;
+  text-align: center;
+
+  img{
+    margin-bottom: 30px;
+  }
+  p{
+    text-align: left;
+  }
+}
+.pageList{
+ .main-modal-inner{
+   li .pageListItem{
+     border-bottom: 1px solid $border-color;
+     .pageListLink{
+      transition:all .3s ease-in;
+       img{
+         width: 150px;
+         float: left;
+         margin-right: 25px;
+       }
+       .item-date{
+         color: $green-bg;
+         margin: 5px 0;
+         font-size: 0.9em;
+       }
+
+     }
+     .pageListLink:hover{
+       background-color: $yellow-light;
+     }
+     .pageListLink{
+       padding: 20px 25px;
+     }
+   }
+ }
+}
+.contact .col-md-9 .main-modal-inner{
+  padding-bottom: 20px !important;
+  .adres-bar{
+    padding: 20px;
+    background-color: $purple-light;
+    color: $gray;
+    font-size: 1.4em;
+
+  }
+  .map-responsive{
+    overflow: hidden;
+    .mapouter{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .contact-item{
+    text-align: center;
+    margin: 20px 0;
+  }
+}
+.pageListColor{
+
+
+  .col-md-9 .main-modal-inner ul{
+    li:nth-child(2n) .pageListItem{
+    background-color: $green-light;
+  }
+
+
+
+  }
+}

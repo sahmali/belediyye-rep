@@ -5,11 +5,12 @@
     <META NAME="author" CONTENT="sahmali.hesenov@gmail.com">
     <title>Title</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha256-gvEnj2axkqIj4wbYhPjbWV7zttgpzBVEgHub9AAZQD4=" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,700,800&display=swap&subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/plug/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
     <link rel="stylesheet" href="./assets/plug/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="./assets/plug/OwlCarousel2-2.3.4/dist/assets/owl.theme.green.min.css">
+    <link rel="stylesheet" href="assets/plug/multilingual-calendar-date-picker/jquery.calendar.min.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
@@ -18,19 +19,42 @@
     <div class="logo">
         <img src="assets/img/logo.png" alt="">
     </div>
-    <ul class="banner-links">
-        <li><a href="#"><i></i></a></li>
-        <li><a href="#"><i></i></a></li>
-        <li><a href="#"><i></i></a></li>
-        <li><a href="#"><i></i></a></li>
-        <li><a href="#"><i></i></a></li>
-        <li><a href="#"><i></i></a></li>
-    </ul>
+    <div class="banner-links">
+        <a href="#"><img class="img-fluid" src="assets/img/fb.png" alt=""></a>
+        <a href="#"><img class="img-fluid" src="assets/img/yt.png" alt=""></a>
+        <a href="#"><img class="img-fluid" src="assets/img/search.png" alt=""></a>
+        <a href="#"><img class="img-fluid" src="assets/img/en.png" alt=""></a>
+        <a href="#"><img class="img-fluid" src="assets/img/tr.png" alt=""></a>
+        <a href="#"><img class="img-fluid" src="assets/img/fr.png" alt=""></a>
+    </div>
 </div>
-<nav class="m-b-15">
-    <ul>
-        <li><a href="">Ana sayfa</a></li>
-        <li><a href="">Pınarbaşı</a></li>
+<div class="nav-heading">
+    <div class="banner-links">
+        <a href="#"><img class="img-fluid" src="assets/img/fb.png" alt=""></a>
+        <a href="#"><img class="img-fluid" src="assets/img/yt.png" alt=""></a>
+        <a href="#"><img class="img-fluid" src="assets/img/search.png" alt=""></a>
+        <a href="#"><img class="img-fluid" src="assets/img/en.png" alt=""></a>
+        <a href="#"><img class="img-fluid" src="assets/img/tr.png" alt=""></a>
+        <a href="#"><img class="img-fluid" src="assets/img/fr.png" alt=""></a>
+    </div>
+    <div class="hamburger"><i class="fa fa-bars"></i></div>
+</div>
+<nav class="main-nav">
+
+    <ul class="navbar">
+        <li><a href=""><i class="fa fa-home"></i>Ana sayfa</a></li>
+        <li class="nav-dropdown">
+            <a href="">Pınarbaşı</a>
+            <ul class="nav-drop-list">
+                <li><a href="">Test link sdssfsfs</a></li>
+                <li><a href="">Test link sdssfsfs</a></li>
+                <li><a href="">Test link sdssfsfs</a></li>
+                <li><a href="">Test link sdssfsfs</a></li>
+                <li><a href="">Test link sdssfsfs</a></li>
+                <li><a href="">Test link sdssfsfs</a></li>
+                <li><a href="">Test link sdssfsfs</a></li>
+            </ul>
+        </li>
         <li><a href="">Efes</a></li>
         <li><a href="">İnteraktif işlemler</a></li>
         <li><a href="">Güncel</a></li>
@@ -38,232 +62,288 @@
         <li><a href="">İletişim</a></li>
     </ul>
 </nav>
-<div class="container">
-    <section id="car-section" >
-        <div class="row">
-            <div class="col-md-9 col-sm-12">
-                <div class="notifications">
-                    <div class="not-heading"><a href="#"><i class="fa fa-bell"></i>Duyurular</a></div>
-                    <div class="not-carousel">
-                        <div class="owl-carousel ">
-                            <div class="item"><p>Lorem ipsum dolor sit amet, consectetur </p></div>
-                            <div class="item"><p>lorem ipsum dolor sit amet</p></div>
-                            <div class="item"><p>lorem ipsum dolor sit amet</p></div>
-                            <div class="item"><p>lorem ipsum dolor sit amet</p></div>
-                            <div class="item"><p>lorem ipsum dolor sit amet</p></div>
-                            <div class="item"><p>lorem ipsum dolor sit amet</p></div>
-                            <div class="item"><p>lorem ipsum dolor sit amet</p></div>
+<section id="car-section" >
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-12">
+                    <div class="notifications">
+                        <div class="not-heading"><a href="#"><i class="fa fa-bell"></i>Duyurular</a></div>
+                        <div class="not-carousel">
+                            <div class="owl-carousel ">
+                                <div class="item"><p>Lorem ipsum dolor sit amet, consectetur </p></div>
+                                <div class="item"><p>lorem ipsum dolor sit amet</p></div>
+                                <div class="item"><p>lorem ipsum dolor sit amet</p></div>
+                                <div class="item"><p>lorem ipsum dolor sit amet</p></div>
+                                <div class="item"><p>lorem ipsum dolor sit amet</p></div>
+                                <div class="item"><p>lorem ipsum dolor sit amet</p></div>
+                                <div class="item"><p>lorem ipsum dolor sit amet</p></div>
+
+                            </div>
 
                         </div>
-
+                    </div>
+                    <div class="main-carousel">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <img class="img-fluid" src="assets/img/car1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="assets/img/car1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="assets/img/car1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="assets/img/car1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="assets/img/car3.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="assets/img/car2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="assets/img/car1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="assets/img/car2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="assets/img/car3.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="assets/img/car2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="assets/img/car1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="assets/img/car2.jpg" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="main-carousel">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <img class="img-fluid" src="assets/img/car1.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img class="img-fluid" src="assets/img/car1.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img class="img-fluid" src="assets/img/car1.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img class="img-fluid" src="assets/img/car1.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img class="img-fluid" src="assets/img/car3.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img class="img-fluid" src="assets/img/car2.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img class="img-fluid" src="assets/img/car1.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img class="img-fluid" src="assets/img/car2.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img class="img-fluid" src="assets/img/car3.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img class="img-fluid" src="assets/img/car2.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img class="img-fluid" src="assets/img/car1.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img class="img-fluid" src="assets/img/car2.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-12">
-                <div class="info-side">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://cdn.theatlantic.com/assets/media/img/mt/2019/06/RTX6X6X4/lead_720_405.jpg?mod=1560534701" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Cras justo odio</li>
-                            <li class="list-group-item">Dapibus ac facilisis in</li>
-                            <li class="list-group-item">Vestibulum at eros</li>
-                        </ul>
-                        <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
+                <div class="col-md-3 col-sm-12">
+                    <div class="info-side">
+                        <div class="card">
+                            <img class="card-img-top" src="https://cdn.theatlantic.com/assets/media/img/mt/2019/06/RTX6X6X4/lead_720_405.jpg?mod=1560534701" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Cras justo odio</li>
+                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-
-    </section>
+</section>
     <section id="news">
-        <div class="row">
-            <div class="col-md-9 col-sm-12">
-                <div class="main-modal">
-                    <div class="main-modal-heading modal-blue">
-                        <a href="#"><i class="fa fa-book "></i>HABER</a>
-                    </div>
-                    <div class="main-modal-inner">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="news-item">
-                                    <a href="#">
-                                        <img src="assets/img/news1.jpg" alt="" class="img-fluid">
-                                        <h6>News heading</h6>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis ratione sunt vel. A amet beatae doloremque fuga fugit hic itaque maxime minima nisi quam repellendus tempora, ullam vero voluptas.</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="news-item">
-                                    <img src="assets/img/news2.jpg" alt="" class="img-fluid">
-                                    <h6>News heading</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequatur culpa doloremque doloribus et fugit nihil pariatur quidem repudiandae sequi temporibus tenetur, voluptatum. Aperiam doloribus eveniet ex excepturi optio voluptas.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                    <div class="news-item">
-                                        <a href="#">
-                                            <img src="assets/img/news3.jpg" alt="" class="img-fluid">
-                                            <h6>News heading</h6>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores corporis cumque et eveniet ipsum itaque iusto libero magnam obcaecati odio quaerat recusandae saepe, sunt tempore tenetur ut velit voluptatem voluptatibus?</p>
-                                        </a>
-                                    </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="news-item">
-                                    <a href="#">
-                                        <img src="assets/img/news4.jpg" alt="" class="img-fluid">
-                                        <h6>News heading</h6>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad architecto porro quod temporibus voluptatum. Aspernatur assumenda atque deserunt harum in incidunt ipsum non nostrum nulla quae quos, soluta totam vero.</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-12">
-                <div class="col-md-12 col-sm-6">
-                    <div class="main-modal modal-sm">
-                        <a href="#"><img class="img-fluid" src="assets/img/social1.jpg" alt=""></a>
-                        <h4>Bizi Facebook'ta izleyin</h4>
-                    </div>
-                </div>
-                <div class="col-md-12 col-sm-6">
-                    <div class="main-modal modal-sm">
-                        <a href="#">
-                            <img class="img-fluid" src="assets/img/social2.jpg" alt="">
-                            <h4>Bizi Youtube'da izleyin</h4>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-12 col-sm-6">
-                    <div class="main-modal modal-sm">
-                        <a href="#">
-                            <img class="img-fluid" src="assets/img/feedback.png" alt="">
-                            <h4>Teklif ve şikayetler</h4>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-12 col-sm-6">
-                    <div class="main-modal modal-sm">
-                        <a href="#">
-                            <img class="img-fluid" src="assets/img/feedback.png" alt="">
-                            <h4>Somethig like others</h4>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="services">
-        <div class="main-modal">
-            <div class="main-modal-heading modal-green">
-                <a href="#"><i class="fa fa-cog"></i>HANGI HIZMETI NASIL ALIRIM</a>
-            </div>
-            <div class="main-modal-inner">
+        <div class="container fluid">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service-item"><a href="">
-                            <h3><i class="fa fa-cog"></i></h3>
-                            <span class="service-name">Some Service</span>Click for more details...<span class="service-detail"></span></a></div>
+                    <div class="col-md-9 col-sm-12">
+                        <div class="main-modal">
+                            <div class="main-modal-heading modal-blue">
+                                <a href="#"><i class="fa fa-book "></i>HABER</a>
+                            </div>
+                            <div class="main-modal-inner">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="news-item">
+                                            <a href="#">
+                                                <img src="assets/img/news1.jpg" alt="" class="img-fluid">
+                                                <h6>News heading</h6>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis ratione sunt vel. A amet beatae doloremque fuga fugit hic itaque maxime minima nisi quam repellendus tempora, ullam vero voluptas.</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="news-item">
+                                            <img src="assets/img/news2.jpg" alt="" class="img-fluid">
+                                            <h6>News heading</h6>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequatur culpa doloremque doloribus et fugit nihil pariatur quidem repudiandae sequi temporibus tenetur, voluptatum. Aperiam doloribus eveniet ex excepturi optio voluptas.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="news-item">
+                                            <a href="#">
+                                                <img src="assets/img/news3.jpg" alt="" class="img-fluid">
+                                                <h6>News heading</h6>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores corporis cumque et eveniet ipsum itaque iusto libero magnam obcaecati odio quaerat recusandae saepe, sunt tempore tenetur ut velit voluptatem voluptatibus?</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="news-item">
+                                            <a href="#">
+                                                <img src="assets/img/news4.jpg" alt="" class="img-fluid">
+                                                <h6>News heading</h6>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad architecto porro quod temporibus voluptatum. Aspernatur assumenda atque deserunt harum in incidunt ipsum non nostrum nulla quae quos, soluta totam vero.</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service-item"><a href="">
-                            <h3><i class="fa fa-edit"></i></h3>
-                            <span class="service-name">Some Service</span>Click for more details...<span class="service-detail"></span></a></div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service-item"><a href="">
-                            <h3><i class="fa fa-trophy"></i></h3>
-                            <span class="service-name">Some Service</span>Click for more details...<span class="service-detail"></span></a></div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service-item"><a href="">
-                            <h3><i class="fa fa-flag"></i></h3>
-                            <span class="service-name">Some Service</span>Click for more details...<span class="service-detail"></span></a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="events">
-        <div class="row">
-            <div class="col-md-6 col-sm-12">
-                <div class="events-item">
-                    <div class="main-modal">
-                        <div class="main-modal-heading modal-green"><a href="#">Calendar</a></div>
-                        <div class="main-modal-innner" style="height: 300px;">
-                            <div id="myCalendar" class="jalendar"></div>
+                    <div class="col-md-3 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-6">
+                                <div class="main-modal modal-sm">
+                                    <a href="#"><img class="img-fluid" src="assets/img/social1.jpg" alt=""></a>
+                                    <h4>Bizi Facebook'ta izleyin</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-6">
+                                <div class="main-modal modal-sm">
+                                    <a href="#">
+                                        <img class="img-fluid" src="assets/img/social2.jpg" alt="">
+                                        <h4>Bizi Youtube'da izleyin</h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-6">
+                                <div class="main-modal modal-sm">
+                                    <a href="#">
+                                        <img class="img-fluid" src="assets/img/feedback.png" alt="">
+                                        <h4>Teklif ve şikayetler</h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-6">
+                                <div class="main-modal modal-sm">
+                                    <a href="#">
+                                        <img class="img-fluid" src="assets/img/feedback.png" alt="">
+                                        <h4>Somethig like others</h4>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12">
-                <div class="events-item">
+        </div>
+
+    </section>
+<section id="services">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
                     <div class="main-modal">
                         <div class="main-modal-heading modal-green">
-                            <a href="#">
-                                Etkinlikler
-                            </a>
+                            <a href="#"><i class="fa fa-cog"></i>HANGI HIZMETI NASIL ALIRIM</a>
                         </div>
-                        <div class="main-modal-innner" style="height: 300px;">
+                        <div class="main-modal-inner">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="service-item"><a href="">
+                                        <h3><i class="fa fa-cog"></i></h3>
+                                        <span class="service-name">Some Service</span>Click for more details...<span class="service-detail"></span></a></div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="service-item"><a href="">
+                                        <h3><i class="fa fa-edit"></i></h3>
+                                        <span class="service-name">Some Service</span>Click for more details...<span class="service-detail"></span></a></div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="service-item"><a href="">
+                                        <h3><i class="fa fa-trophy"></i></h3>
+                                        <span class="service-name">Some Service</span>Click for more details...<span class="service-detail"></span></a></div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="service-item"><a href="">
+                                        <h3><i class="fa fa-flag"></i></h3>
+                                        <span class="service-name">Some Service</span>Click for more details...<span class="service-detail"></span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+    <section id="events">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="events-item">
+                            <div class="main-modal">
+                                <div class="main-modal-innner">
+                                    <div id="myCalendar" class="jalendar"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="events-item">
+                            <div class="main-modal">
+                                <div class="main-modal-heading modal-green">
+                                    <a href="#">
+                                        Etkinlikler
+                                    </a>
+                                </div>
+                                <div class="main-modal-innner" style="height: 300px;">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sponsor">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="main-modal">
+                                <div class="main-modal-inner">
+                                    <div class="owl-carousel">
+                                        <div class="item">
+                                            <img src="assets/img/sp1.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="item">
+                                            <img src="assets/img/sp2.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="item">
+                                            <img src="assets/img/sp3.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="item">
+                                            <img src="assets/img/sp4.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="item">
+                                            <img src="assets/img/sp4.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="item">
+                                            <img src="assets/img/sp5.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="item">
+                                            <img src="assets/img/sp6.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="item">
+                                            <img src="assets/img/sp7.jpg" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-</div>
 <footer>
     <div class="container">
         <div class="footer-menu">
@@ -288,7 +368,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="assets/plug/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
-
+<script src="assets/plug/multilingual-calendar-date-picker/jquery.calendar.min.js"></script>
 <script src="assets/js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,43 @@
+@media screen and  (max-width: 768px){
+  footer{
+
+
+    .footer-menu{
+      ul{
+        flex-direction: column;
+        align-items: flex-start;
+
+        height: 350px;
+        a{
+          width: 100%;
+          padding: 20px 30px;
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+  #top-banner{
+    background-image: none;
+  .banner-links{
+    display: none;
+  }
+}
+  nav{
+    ul.navbar{
+      width: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+      height: 0;
+      opacity: 0;
+      .nav-drop-list{
+        display: none;
+      }
+
+    }
+
+  }
+  .nav-heading{
+    display: flex;
+    align-items: center;
+  }
+}

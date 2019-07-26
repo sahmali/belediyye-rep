@@ -20,8 +20,51 @@ $('.main-carousel .owl-carousel').owlCarousel({
     margin:10,
     nav:true,
     items: 1,
-    singleItem:true
+    singleItem:true,
 })
 
 
-/*CALENDAR*/
+
+
+/*SPONSOR OWL*/
+
+$('#events .owl-carousel').owlCarousel({
+    nav:true,
+    loop:true,
+    autoWidth:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
+
+
+/*-------------------NAV MENU-----------------------*/
+var hamburger= document.querySelector('.hamburger');
+var navbar=document.querySelector('.navbar');
+console.log(hamburger);
+
+hamburger.addEventListener('click',()=>{
+    navbar.classList.toggle('open-nav');
+});
+
+/*--------------------Calendar -------------------------*/
+$(function () {
+
+    $('#myCalendar').calendar({
+        months: ['OCAK', 'ŞUBAT', 'MART', 'NİSAN', 'MAYIS', 'HAZİRAN', 'TEMMUZ', 'AĞUSTOS', 'EYLÜL', 'EKİM', 'KASIM', 'ARALIK'],
+        days: ['Pzt', 'Sal', 'Çar', 'Per', 'Cum', 'Cmt', 'Pzr'],
+        color: '#6fdc94'
+
+    });
+
+
+});
